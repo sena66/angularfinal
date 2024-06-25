@@ -1,0 +1,41 @@
+.FAQ, .Questions1, .Questions2 {
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+h2 {
+    color: deeppink;
+    text-decoration: underline;
+}
+
+nav {
+    margin-top: 50px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.mainmenu {
+    font-size: 12px;
+    text-decoration: none !important;
+}
+
+#navbarTabs {
+    display: inline;
+    color: deeppink;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#terms {
+    margin-top: 100px;
+    color: deeppink;
+    font-size: 14px;
+}

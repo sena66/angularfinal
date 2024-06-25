@@ -1,0 +1,44 @@
+<header>
+  <title>Products - Apari</title>
+</header>
+
+<div class="container">
+
+
+    <div *ngFor="let product of filteredList" class="card">
+            <img [src]="product.image" class="card-img-top" alt="..." >
+            <div class="card-body">
+              <h6 class="card-title">{{product.title}}</h6>
+              <!-- <h5 class="card-title">{{product.category}}</h5> -->
+              <!-- <h5 class="card-title">{{product.price}}</h5> -->
+            </div>
+          </div>
+
+</div>
+
+<section>
+  <div>
+    <nav>
+      <ul>
+        <li>
+          <a id="navbarTabs" class="mainmenu">Main Menu</a>
+        </li>
+        <li>
+          <a class="nav-link active" aria-current="page" routerLink="/home" id="navbarTabs">Home</a>
+        </li>
+        <li>
+          <a class="nav-link active" aria-current="page" routerLink="/products" id="navbarTabs">Shop</a>
+        </li>
+        <li>
+          <a class="nav-link active" aria-current="page" routerLink="/faq" id="navbarTabs">FAQ</a>
+        </li>
+      </ul>
+      <p id="terms">© APARI 2024
+        SEARCH
+        SHIPPING & RETURNS
+        TERMS OF SERVICE
+        REFUND POLICY
+        POWERED BY SHOPIFY</p>
+    </nav>
+  </div>
+</section>
